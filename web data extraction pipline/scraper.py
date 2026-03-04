@@ -5,8 +5,24 @@ import time
 
 URL = "https://quotes.toscrape.com"
 
-response = requests.get(URL)
-soup = BeautifulSoup(response.text, "html.parser")
+headers = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+}
+
+def fetch_page(url, retries=3):
+    for attempt in range(retries):
+        try:
+            response = requests.get(url, headers=headers, timeout=10)
+            response.raise_for_status()
+            return response.text
+        except requests.exceptions.RequestException:
+            if attempt < retries - 1:
+                time.sleep(2)
+            else:
+                raise
+
+html = fetch_page(URL)
+soup = BeautifulSoup(html, "html.parser")
 
 quotes = soup.find_all("div", class_="quote")
 
