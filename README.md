@@ -2,45 +2,60 @@
 
 A Python-based data extraction workflow designed to scrape, process, and deliver structured datasets from websites.
 
+---
+
 ## Features
-- Automated web scraping using Python
-- HTML parsing with BeautifulSoup
-- Structured data extraction from web pages
-- Data cleaning and normalization
-- Export datasets to CSV format
+
+- Automated web scraping using Python  
+- HTML parsing with BeautifulSoup  
+- Structured data extraction from web pages  
+- Data cleaning and normalization  
+- Export datasets to CSV format  
+
+---
 
 ## Technologies
-Python  
-Requests  
-BeautifulSoup  
-Pandas
+
+- Python  
+- Requests  
+- BeautifulSoup  
+- Pandas  
+
+---
 
 ## Workflow
-1. Send HTTP request to target website
-2. Parse HTML content
-3. Extract relevant fields
-4. Normalize and validate dataset
+
+1. Send HTTP request to the target website  
+2. Parse HTML content  
+3. Extract relevant fields  
+4. Normalize and validate the dataset  
 5. Export structured dataset (CSV)
 
-## Output
-Clean structured datasets ready for analysis or automation pipelines.
+---
 
-Example Output Dataset
+## Example Output Dataset
 
-The scraper generates structured datasets including:
+The scraper generates structured datasets including the following fields:
 
-quote | author | tags
-
-## Example Output
-
-The scraper generates structured datasets like:
-
-| quote | author | tags |
+| Quote | Author | Tags |
 |------|------|------|
 | "The world as we have created it..." | Albert Einstein | change, thinking |
 | "It is our choices..." | J.K. Rowling | inspirational |
 
-The dataset is exported as CSV for further analysis.
+The dataset is exported as **CSV format** for further analysis or automation pipelines.
+
+---
+
+## Output
+
+Clean structured datasets ready for:
+
+- Data analysis
+- Automation workflows
+- AI/ML preprocessing pipelines
+
+---
 
 ## Example Use Case
-Scraping structured information such as quotes, products, or company details from websites and exporting them as structured datasets.
+
+Scraping structured information such as **quotes, products, or company details** from websites and exporting them into **clean structured datasets** for further processing.
