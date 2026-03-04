@@ -7,10 +7,10 @@ A Python-based data extraction workflow designed to scrape, process, and deliver
 ## Features
 
 - Automated web scraping using Python  
-- HTML parsing with BeautifulSoup  
+- HTML parsing using BeautifulSoup  
 - Structured data extraction from web pages  
 - Data cleaning and normalization  
-- Export datasets to CSV format  
+- Export structured datasets to CSV format  
 
 ---
 
@@ -26,10 +26,10 @@ A Python-based data extraction workflow designed to scrape, process, and deliver
 ## Workflow
 
 1. Send HTTP request to the target website  
-2. Parse HTML content  
-3. Extract relevant fields  
-4. Normalize and validate the dataset  
-5. Export structured dataset (CSV)
+2. Parse HTML content using BeautifulSoup  
+3. Extract relevant data fields  
+4. Normalize and validate extracted data  
+5. Export structured dataset in CSV format  
 
 ---
 
@@ -42,7 +42,7 @@ The scraper generates structured datasets including the following fields:
 | "The world as we have created it..." | Albert Einstein | change, thinking |
 | "It is our choices..." | J.K. Rowling | inspirational |
 
-The dataset is exported as **CSV format** for further analysis or automation pipelines.
+The dataset is exported in **CSV format** for further analysis or automation pipelines.
 
 ---
 
@@ -50,12 +50,22 @@ The dataset is exported as **CSV format** for further analysis or automation pip
 
 Clean structured datasets ready for:
 
-- Data analysis
-- Automation workflows
-- AI/ML preprocessing pipelines
+- Data analysis  
+- Automation workflows  
+- AI / Machine Learning preprocessing pipelines  
 
 ---
 
 ## Example Use Case
 
-Scraping structured information such as **quotes, products, or company details** from websites and exporting them into **clean structured datasets** for further processing.
+This scraping pipeline can be used to extract structured information such as:
+
+- Quotes or articles  
+- Product listings  
+- Company or business data  
+
+The extracted information can then be stored as **structured datasets** for analytics, automation, or AI training workflows.
+
+---
+
+## Project Structure
