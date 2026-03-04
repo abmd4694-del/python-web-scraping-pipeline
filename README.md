@@ -25,6 +25,12 @@ Pandas
 ## Output
 Clean structured datasets ready for analysis or automation pipelines.
 
+Example Output Dataset
+
+The scraper generates structured datasets including:
+
+quote | author | tags
+
 ## Example Output
 
 The scraper generates structured datasets like:
