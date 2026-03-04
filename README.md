@@ -25,5 +25,16 @@ Pandas
 ## Output
 Clean structured datasets ready for analysis or automation pipelines.
 
+## Example Output
+
+The scraper generates structured datasets like:
+
+| quote | author | tags |
+|------|------|------|
+| "The world as we have created it..." | Albert Einstein | change, thinking |
+| "It is our choices..." | J.K. Rowling | inspirational |
+
+The dataset is exported as CSV for further analysis.
+
 ## Example Use Case
 Scraping structured information such as quotes, products, or company details from websites and exporting them as structured datasets.
