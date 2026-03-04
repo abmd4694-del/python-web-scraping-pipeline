@@ -69,3 +69,36 @@ The extracted information can then be stored as **structured datasets** for anal
 ---
 
 ## Project Structure
+python-web-scraping-pipeline
+│
+├── scraper.py
+├── requirements.txt
+├── output/
+│ └── quotes_dataset.csv
+└── README.md
+
+---
+
+## How to Run
+
+Clone the repository
+
+git clone https://github.com/abmd4694-del/python-web-scraping-pipeline.git
+
+Install dependencies
+
+pip install -r requirements.txt
+
+Run the scraper
+
+python scraper.py
+
+
+The script will generate a structured dataset in CSV format.
+
+---
+
+## License
+
+This project is for educational and demonstration purposes.
+
