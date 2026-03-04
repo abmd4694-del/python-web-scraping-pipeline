@@ -93,8 +93,7 @@ Run the scraper
 
 python scraper.py
 
-
-The script will generate a structured dataset in CSV format.
+The script generates a structured dataset (quotes_dataset.csv) inside the output directory.
 
 ---
 
